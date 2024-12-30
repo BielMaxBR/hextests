@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbxlv8jcthde"
-path="res://.godot/imported/carbon.png-aabbee292335871839c19ce249f234a4.ctex"
+path="res://.godot/imported/carbon.png-af2d443399e0e1ae4bbd2e14a9d55b7c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://carbon.png"
-dest_files=["res://.godot/imported/carbon.png-aabbee292335871839c19ce249f234a4.ctex"]
+source_file="res://sprites/carbon.png"
+dest_files=["res://.godot/imported/carbon.png-af2d443399e0e1ae4bbd2e14a9d55b7c.ctex"]
 
 [params]
 
