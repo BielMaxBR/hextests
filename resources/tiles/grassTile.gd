@@ -7,4 +7,3 @@ func _init():
 func update(damage: DamageType):
 	if damage is FireDamage:
 		tile.change_state(FireTile.new())
-	

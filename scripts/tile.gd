@@ -12,7 +12,10 @@ func _ready() -> void:
 	state = GrassTile.new()
 	state.tile = self
 	state.init()
-	
+
+func _process(delta: float) -> void:
+	state.process(delta)
+
 func update_state(event: DamageType):
 	# eu preciso fazer, esse tilemap sempre rodar o update junto ao process
 	# mas ao mesmo tempo ele precisa continuar ouvindo eventos como esse

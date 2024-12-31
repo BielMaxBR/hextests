@@ -13,6 +13,7 @@ radius = 128.0
 script = ExtResource("1_6yhyn")
 damage_type = SubResource("Resource_5nwtm")
 radius = 115
+instant = true
 
 [node name="Area2D" type="Area2D" parent="."]
 collision_layer = 4

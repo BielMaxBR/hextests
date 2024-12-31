@@ -11,3 +11,6 @@ func init():
 func update(damage: DamageType):
 	#checar eventos e mudar de type
 	pass
+
+func process(delta: float):
+	pass
