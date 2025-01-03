@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cmpkhytt6k2lf"]
+
+[ext_resource type="Texture2D" uid="uid://cbxlv8jcthde" path="res://sprites/carbon.png" id="1_q3vrm"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_x21d1"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2e4bk"]
+radius = 19.0263
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_x21d1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_2e4bk")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_q3vrm")
+offset = Vector2(0, 4)
